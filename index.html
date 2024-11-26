@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>Tipos de Formulario</h1>
+    <form action="validarFormulario.php" method="post" ENCTYPE="multipart/form-data">
+        <select name="tipoFormulario">
+            <option value="residentesHoteles">Residentes y Hoteles</option>
+            <option value="vehiculosEMT">Vehiculos EMT</option>
+            <option value="taxis">Taxis</option>
+            <option value="servicios">Servicios</option>
+            <option value="logistica">Logistica</option>
+            <option value="infractores">Vehiculos Infractores</option>
+        </select>
+        <br><br><br><br><br><br><br><br><br><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+
+</html>
